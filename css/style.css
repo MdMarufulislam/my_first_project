@@ -1,0 +1,681 @@
+.navbar{
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 99;    
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin: 0 20px;
+    position: relative;
+   
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fce38a;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fce38a;
+}
+.navbar-light .navbar-nav .nav-link::before{
+position: absolute;
+content: "";
+width: 0%;
+height: 3px;
+background-color: #fce38a;
+bottom: 0;
+left: 0;
+transition: all linear 1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link.active::before{
+    width: 100%;
+}
+.navbar-light .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.navbar-light .navbar-brand:hover{
+    color: #ffffff;
+}
+/* banner css */
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 230px 0 ;
+    position: relative;
+}
+.banner::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#ea8b83,#efd289);
+    top: 0;
+    bottom: 0;
+    opacity:0.9;
+}
+.banner_heading h3{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 72px;
+    color: #ffffff;
+}
+.banner_heading h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+}
+.banner_heading h1::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner_heading a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+.banner_heading p{
+    margin-top: 95px;
+}
+.about{
+    padding-top: 90px;
+    padding-bottom: 105px;
+}
+.ab_heading h4{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+}
+.ab_heading h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+}
+.ab_heading h1::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-40%);
+}
+.ab_heading p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #cccccc;
+    margin-top: 93px;
+    padding: 0 60px;
+    margin-bottom: 80px;
+
+}
+.ab_img{
+    position: relative;
+}
+.overly{
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(#ea8b83,#efd289);
+    opacity: 0.9;
+    overflow: hidden;
+    transition: all linear 0.3s;
+
+}
+.ab_overly{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ab_overly i{
+    font-size: 35px;
+    color: #fff;
+ 
+}
+.ab_overly h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.ab_img:hover .overly{
+    height: 100%;
+}
+/* countdown  */
+
+.countdown{
+    padding: 89px 89px;
+    background-color: #95e1d3;
+}
+.count_item h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+    font-size: 72px;
+    color: #fff;
+}
+.count_item p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* service */
+.service{
+    padding: 110px;
+  
+}
+.serivice_heading h4{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+
+}
+.serivice_heading h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 100px;
+}
+.serivice_heading h2::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-40%);
+}
+.serivice_item img{
+    width: 32px;
+    height: 30px;
+}
+.service_text{
+    margin-left: 30px;
+}
+.service_text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.service_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+}
+/* msg */
+.msg{
+    padding:75px ;
+    background-color: #f8f8f8;
+}
+.icon{
+    border: 3px solid #95e1d3;
+    padding: 40px;
+  
+}
+.txt{
+    margin-left: 70px;
+}
+.txt p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    color: #999999;
+    
+
+}
+.txt h5{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    position: relative;
+    margin-left: 70px;
+}
+
+.txt h5::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    top: 50%;
+    left: -70px;
+}
+/*  information */
+.information{
+    padding: 110px 0;
+
+}
+.information_heading h4{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+
+}
+.information_heading h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 100px;
+}
+.information_heading h2::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-40%);
+}
+.information_heading p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #cccccc;
+    margin-top: 93px;
+    padding: 0 60px;
+    margin-bottom: 80px;
+}
+.in_img{
+    position: relative;
+    margin-left: 35px;
+}
+.i-overly{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    background-image: linear-gradient(#e88282,#f0d98a);
+    opacity: 0.9;
+    overflow: hidden;
+    transition: all linear 1s;
+}
+.in_overly {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.in_overly i{
+    font-size: 23px;
+    color: #f38181;
+    background-color: #fce38a;
+    padding: 10px;
+    margin: -1px;
+}
+.in_overly i:hover{
+    background-color: #f38181;
+    color: #fff;
+}
+.i_text{
+    padding-top: 30px;
+}
+.i_text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+}
+.i_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+
+.in_img:hover .i-overly{
+    height: 100%;
+}
+
+/* work */
+
+.work_info h4{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+
+}
+.work_info h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 100px;
+}
+.work_info h2::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-40%);
+}
+.work_info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #cccccc;
+    margin-top: 93px;
+    padding: 0 60px;
+    margin-bottom: 80px;
+}
+/* work */
+.img1{
+    position: relative;
+}
+.txt_overly{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    background-image: linear-gradient(#e88282,#f0d98a);
+    opacity: 0.9;
+    overflow: hidden;
+    transition: all linear 1s;
+
+}
+.txt_overly i{
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.txt_overly h6{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 25px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.txt_overly p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+.img1:hover .txt_overly{
+    height: 100%;
+}
+/* end */
+
+.ending{
+    padding: 75px;
+    background-color: #f8f8f8;
+}
+
+.discription h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #cccccc;
+}
+
+.discription p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #cccccc;
+    margin: 30px 0;
+}
+
+.follw p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.f{
+    display: flex;
+}
+
+.f P{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #b1b1b1;
+    margin-right: 12px;
+}
+
+.f i{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px;
+    color: #95e1d3;
+}
+
+form input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #dfdfdf;
+}
+form button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background-color: #95e1d3;
+    
+}
+
+.end_img {
+    display: flex;
+}
+
+.end_img{
+    padding: 30px;
+}
+
+.end_txt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+}
+
+/* footer */
+
+.footer{
+    padding: 70px 0 0 0;
+    background: #f8f8f8;
+}   
+.first_item h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    color: #cccc;
+}
+.first_item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    margin: 20px 0;
+}
+.first_item h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+.first_item h4 span{
+    font-weight: 400;
+}
+.first_item h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size:15px;
+    color: #999999;
+}
+.first_item h5 i{
+    font-size: 16px;
+    margin: 0 8px;
+    color: #95e1d3;
+}
+
+.box {
+    position: relative;
+    margin-top: 30px;
+}
+.box input{
+    height: 53px;
+}
+.box button{
+    border: none;
+   padding: 15px;
+    background: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.box input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #cccc;
+    font-style: italic;
+}
+.second_item h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.sec_text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #333333;
+}
+
+.sec_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    font-style: italic;
+    color: #999999;
+}
+.blog {
+    margin-top: 20px;
+}
+.third_item h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.footer_images {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.copyright h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+}
+.copyright span{
+    color: #f49f9f;
+}
+
+
+
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive;
+
+*/

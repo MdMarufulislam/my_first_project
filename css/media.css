@@ -1,0 +1,230 @@
+/* Extra small devices  */
+@media (max-width: 575.98px) { 
+    .banner {
+        padding: 140px 0;
+    }
+    .banner_heading h1 {
+        font-size: 50px;
+    }
+    .banner_heading h3 {
+         font-size: 30px;
+    }
+    .about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .ab_img {
+        margin-bottom: 20px;
+    }
+    .navbar-light .navbar-brand {
+      font-size: 41px;
+    }
+    .ab_heading p {
+        font-size: 20px;
+        padding: 0px;
+    }
+    .serivice_heading h4 {
+        font-size: 25px;
+    }
+    .serivice_heading h2 {
+        font-size: 29px;
+    }
+    .service {
+        padding: 30px;
+    }
+
+    .service_text {
+        margin-left: 20px;
+    }
+    .countdown {
+        padding: 90px 0px;
+    }
+    .msg {
+        padding: 0;
+    }
+    .txt {
+        margin-left: 40px;
+    }
+    .txt p {
+        font-size: 20px;
+    }
+    .information {
+        padding: 40px 0;
+    }
+    .information_heading p {
+
+
+        font-size: 17px;
+
+        margin-top: 60px;
+        padding: 0px 0px;
+        margin-bottom: 42px;
+    }
+    .i_text {
+        padding-top: 15px;
+        margin-bottom: 50px;
+    }
+    .i_text h4 {
+        font-size: 20px;
+    }
+    .i_text p {
+        font-size: 15px;
+    }
+    .txt h5 {
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    .txt h5::before {
+        width: 35px;
+        left: -37px;
+    }
+    .second_item h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .third_item h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .work_info p {
+        font-size: 17px;
+
+        margin-top: 60px;
+        padding: 0px 0px;
+        margin-bottom: 42px;
+    }
+    .second_item h2 {
+        margin-bottom: 20px;
+    }
+    .third_item h2 {
+        margin-bottom: 20px;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .banner_heading h3 {
+        font-size: 60px;
+    }
+    .banner_heading h1 {
+        font-size: 90px;
+    }
+    .about {
+        padding-top: 60px;
+    }
+    .ab_img {
+        margin: 10px;
+    }
+    .icon {
+        padding: 45px;
+    }
+    .information {
+        padding: 45px 0;
+    }
+    .i_text {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .second_item h2 {
+        font-size: 25px;
+        margin-bottom: 28px;
+        margin-top: 15px;
+    }
+    .third_item h2 {
+        font-size: 25px;
+        margin-bottom: 28px;
+        margin-top: 15px;
+    }
+    .ab_heading p {
+        font-size: 20px;
+        padding: 0;
+    }
+    .service {
+        padding: 30px;
+    }
+    .icon {
+        margin: 40px;
+    }
+    .work_info p {
+        font-size: 20px;
+        padding: 0;
+    }
+    .information_heading p {
+        font-size: 20px;
+        padding: 0;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner {
+        padding: 130px 0;
+    }
+
+    .banner_heading h1 {
+        font-size: 110px;
+    }
+    .about {
+        padding: 30px;
+    }
+
+    .ab_heading p {
+        font-size: 20px;
+        padding: 0px;
+    }
+    .ab_overly i {
+        font-size: 25px;
+    }
+
+    .ab_overly h4 {
+        font-size: 15px;
+    }
+    .countdown {
+        padding: 40px;
+    }
+    .service {
+        padding: 30px;
+    }
+
+    .txt {
+        margin-left: 25px;
+    }
+
+    .txt p {
+        font-size: 20px;
+    }
+
+    .information {
+        padding: 30px;
+    }
+
+    .information_heading p {
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .in_img {
+        margin-left: 0px;
+    }
+    .in_overly i {
+        padding: 3px;
+    }
+    .work_info p {      
+        font-size: 20px;
+        padding: 0px;
+    }
+    .txt_overly h6 {
+        font-size: 9px;
+        margin-top: 29px;
+    }
+    .txt_overly p {
+        font-size: 9px;
+    }
+    .second_item h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .third_item h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+  }
